@@ -1,0 +1,5 @@
+res://Player/player.tscn
+res://parallax_background.tscn
+res://main.tscn
+res://obstacles.tscn
+res://tile_map_layer.tscn

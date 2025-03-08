@@ -1,0 +1,38 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1741419897
+break_timer.gd::GDScript::-1::1741073387::0::1::::<>Node2D<>::
+GlobalVariables.gd::GDScript::-1::1741419357::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::9035408695335449770::1740485549::1740485559::1::::<><>::
+main.gd::GDScript::-1::1740918714::0::1::::<>Node2D<>::
+main.tscn::PackedScene::2645215903171722080::1741419588::0::1::::<><>::res://main.gd<>uid://ck27fml4xglci::::res://Player/player.tscn<>res://work_timer.gd<>uid://ls5kld64kuh3::::res://Environment/startstop.png<>uid://dprs88uln2rgw::::res://obstacles.tscn<>uid://c1f6rk8ysjqgp::::res://sounds/EYE_OF_RAH.mp3<>res://break_timer.gd<>uid://brkmlsfdddb0q::::res://Environment/breakableFrozenNovice01.png<>uid://52olbaa3l1jq::::res://Environment/breakableFrozenNovice02.png<>uid://cymn16ketsiqn::::res://sounds/break-time.mp3<>uid://dddgxb6lfqilu::::res://parallax_background.tscn<>uid://c6flxai4m0xg6::::res://tile_map_layer.tscn
+obstacles.tscn::PackedScene::8248342729222349230::1741419588::0::1::::<><>::
+parallax_background.tscn::PackedScene::7376427191391387930::1741419588::0::1::::<><>::uid://4fd6qgluftvk::::res://Environment/snow-mountain-clouds-spritesheet.png<>uid://c008ntx3i8vx1::::res://Environment/snow-mountain-bg-spritesheet - Copy - Copy.png<>uid://cpwvvrbrtgmfp::::res://Environment/snow-mountain-bg-spritesheet - Copy.png
+tile_map_layer.tscn::PackedScene::6959726382808856687::1741419589::0::1::::<><>::uid://pvanvwddnke0::::res://Environment/vertical-graveyard-spritesheet.png<>uid://b02m6lfb8unge::::res://Environment/snow-mountain-spritesheet.png
+work_timer.gd::GDScript::-1::1741073387::0::1::::<>Node2D<>::
+::res://Environment/::1741011018
+breakableFrozenNovice01.png::CompressedTexture2D::3601024004011160654::1741003495::1741003496::1::::<><>::
+breakableFrozenNovice02.png::CompressedTexture2D::2162273242693500098::1741003927::1741003928::1::::<><>::
+breakableTwistedCorpse01.png::CompressedTexture2D::5517065128269986446::1741000880::1741010755::1::::<><>::
+snow-mountain-bg-spritesheet - Copy - Copy.png::CompressedTexture2D::6581199813028922052::1741011003::1741011008::1::::<><>::
+snow-mountain-bg-spritesheet - Copy.png::CompressedTexture2D::5872403786305900841::1741011012::1741011013::1::::<><>::
+snow-mountain-bg-spritesheet.png::CompressedTexture2D::3207027218163218902::1741011017::1741011018::1::::<><>::
+snow-mountain-clouds-spritesheet.png::CompressedTexture2D::2046036715031753576::1741010806::1741010811::1::::<><>::
+snow-mountain-spritesheet.png::CompressedTexture2D::4197664523098983444::1741010097::1741010098::1::::<><>::
+startstop.png::CompressedTexture2D::811076031152408218::1740996382::1740996558::1::::<><>::
+vertical-graveyard-spritesheet.png::CompressedTexture2D::1096208939843392833::1741008006::1741008013::1::::<><>::
+::res://Player/::1741419588
+player.gd::GDScript::-1::1741069828::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5532420524485853176::1741419588::0::1::::<><>::uid://0mebyg6cvb56::::res://Player/spritesheets/attack.png<>res://Player/player.gd<>uid://by2tnnopj34gp::::res://Player/spritesheets/fall.png<>uid://uxs5vrmwc7o1::::res://Player/spritesheets/hurt.png<>uid://bs0q3yw83mb6p::::res://Player/spritesheets/idle.png<>uid://bvd5qwmoap3lg::::res://Player/spritesheets/jump.png<>uid://cp2fl8rkhbpo7::::res://Player/spritesheets/run.png<>uid://weaqwkqs45p3::::res://sounds/sword-swing-sound.mp3<>uid://cn0jte0307u3n::::res://sounds/sword-start-timer.mp3<>uid://dlr26ntgqfvyq::::res://sounds/sword-edit-timer.mp3
+::res://Player/spritesheets/::1740491314
+attack.png::CompressedTexture2D::1779739549005726023::1740491309::1740491314::1::::<><>::
+fall.png::CompressedTexture2D::4127868673674325023::1740491307::1740491314::1::::<><>::
+hurt.png::CompressedTexture2D::1452405170617734438::1740491307::1740491314::1::::<><>::
+idle.png::CompressedTexture2D::3702452083226139761::1740491306::1740491314::1::::<><>::
+jump.png::CompressedTexture2D::3868430790527507108::1740491305::1740491314::1::::<><>::
+run.png::CompressedTexture2D::5881737210009083568::1740491308::1740491314::1::::<><>::
+::res://sounds/::1740928663
+break-time.mp3::AudioStreamMP3::6482983543174935949::1740928560::1740928663::1::::<><>::
+EYE_OF_RAH.mp3::AudioStreamMP3::6609986353344410435::1740928549::1740928663::1::::<><>::
+sword-edit-timer.mp3::AudioStreamMP3::7968129183781473212::1740926843::1740928663::1::::<><>::
+sword-start-timer.mp3::AudioStreamMP3::5737486411571601765::1740927237::1740928663::1::::<><>::
+sword-swing-sound.mp3::AudioStreamMP3::1552441815469373082::1740926399::1740928663::1::::<><>::

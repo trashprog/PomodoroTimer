@@ -1,0 +1,14 @@
+CollisionShape2D
+TileMapLayer
+ParallaxLayer
+ParallaxBackground
+Sprite2D
+AnimatedSprite2D
+AnimationPlayer
+AudioStreamPlayer2D
+Node2D
+ColorRect
+Area2D
+Timer
+Label
+StaticBody2D

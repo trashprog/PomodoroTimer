@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=3 uid="uid://dprs88uln2rgw"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ovfp5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bt0qs"]
+size = Vector2(1152, 10)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o6qc5"]
+size = Vector2(16, 623)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yyk7c"]
+size = Vector2(16, 623)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0ielf"]
+size = Vector2(296, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7x0nq"]
+size = Vector2(63, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m7vej"]
+size = Vector2(211.75, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tinjo"]
+size = Vector2(39, 16)
+
+[node name="Obstacles" type="StaticBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_ovfp5")
+
+[node name="Border" type="CollisionShape2D" parent="."]
+position = Vector2(576, 643)
+shape = SubResource("RectangleShape2D_bt0qs")
+one_way_collision_margin = 0.0
+debug_color = Color(9.62615e-08, 0.611361, 0.629121, 0.42)
+
+[node name="Border2" type="CollisionShape2D" parent="."]
+position = Vector2(1144, 311.5)
+shape = SubResource("RectangleShape2D_o6qc5")
+one_way_collision_margin = 0.0
+debug_color = Color(9.62615e-08, 0.611361, 0.629121, 0.42)
+
+[node name="Border3" type="CollisionShape2D" parent="."]
+position = Vector2(8, 312)
+shape = SubResource("RectangleShape2D_yyk7c")
+one_way_collision_margin = 0.0
+debug_color = Color(9.62615e-08, 0.611361, 0.629121, 0.42)
+
+[node name="Obstacle" type="CollisionShape2D" parent="."]
+position = Vector2(604, 548)
+shape = SubResource("RectangleShape2D_0ielf")
+
+[node name="Obstacle4" type="CollisionShape2D" parent="."]
+position = Vector2(408.5, 488)
+shape = SubResource("RectangleShape2D_7x0nq")
+
+[node name="Obstacle6" type="CollisionShape2D" parent="."]
+position = Vector2(736, 360)
+shape = SubResource("RectangleShape2D_m7vej")
+
+[node name="Obstacle5" type="CollisionShape2D" parent="."]
+position = Vector2(544, 416)
+shape = SubResource("RectangleShape2D_tinjo")

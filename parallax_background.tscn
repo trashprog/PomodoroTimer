@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://dddgxb6lfqilu"]
+
+[ext_resource type="Texture2D" uid="uid://4fd6qgluftvk" path="res://Environment/snow-mountain-clouds-spritesheet.png" id="1_51nwc"]
+[ext_resource type="Texture2D" uid="uid://c008ntx3i8vx1" path="res://Environment/snow-mountain-bg-spritesheet - Copy - Copy.png" id="2_7tskl"]
+[ext_resource type="Texture2D" uid="uid://cpwvvrbrtgmfp" path="res://Environment/snow-mountain-bg-spritesheet - Copy.png" id="3_1y0t8"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_msqkb"]
+load_path = "res://.godot/imported/snow-mountain-bg-spritesheet - Copy.png-0604b1d6210fa8c006400fac8bd219d5.ctex"
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(572, 325.524)
+scale = Vector2(1.9374, 1.30822)
+texture = ExtResource("1_51nwc")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(576, 412)
+scale = Vector2(1.41576, 1.71429)
+texture = ExtResource("2_7tskl")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(280, 576)
+scale = Vector2(0.833333, 0.869444)
+texture = ExtResource("3_1y0t8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(862, 576)
+scale = Vector2(0.856322, 0.825)
+texture = SubResource("CompressedTexture2D_msqkb")
